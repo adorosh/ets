@@ -9,7 +9,7 @@ FILE_LNK<br />
 <?php var_dump(getenv('FILE_LNK')); ?>
 </pre>
 SERVER<br />
-<pre>
+<pre style="font-size:8px; max-height:400px;">
 <?php var_dump($_SERVER); ?>
 </pre>
-
+<?php phpinfo(); ?>
