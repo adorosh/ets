@@ -6,10 +6,6 @@ This file is a simple way to check how ansible loads files from git.
 </pre>
 FILE_LNK<br />
 <pre>
-<?php var_dump(getenv('FILE_LNK')); ?>
-</pre>
-SERVER<br />
-<pre style="font-size:8px; max-height:400px;">
-<?php var_dump($_SERVER); ?>
+<?php var_dump(getenv('FILE_LINK')); ?>
 </pre>
 <?php phpinfo(); ?>
